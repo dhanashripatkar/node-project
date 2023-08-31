@@ -3,7 +3,6 @@ const bcrypt = require('bcrypt')
 const {createJwt} = require('../middleware/auth')
 
 
-
 const getObject = async (req, res) => {
     try{
         const objectJson =  await object.find()
